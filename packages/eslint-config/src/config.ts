@@ -3,23 +3,23 @@ export const config = {
   parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaVersion: 2018,
-    sourceType: "module",
+    sourceType: "module"
   },
   settings: {
     "import/parsers": {
-      "@typescript-eslint/parser": [".ts", ".tsx"],
+      "@typescript-eslint/parser": [".ts", ".tsx"]
     },
     "import/resolver": {
       typescript: {
-        alwaysTryTypes: true,
-      },
-    },
+        alwaysTryTypes: true
+      }
+    }
   },
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended",
+    "plugin:prettier/recommended"
   ],
   plugins: ["import", "sort-destructure-keys", "simple-import-sort", "codegen"],
   rules: {
@@ -50,6 +50,6 @@ export const config = {
     "import/no-unresolved": "error",
     "import/order": "off",
     "simple-import-sort/imports": "error",
-    "sort-destructure-keys/sort-destructure-keys": "error",
-  },
-};
+    "sort-destructure-keys/sort-destructure-keys": "error"
+  }
+}
