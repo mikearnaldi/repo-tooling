@@ -3,7 +3,7 @@
   "changelog": [
     "@changesets/changelog-github",
     {
-      "repo": "ts-plus/installer"
+      "repo": "mikearnaldi/repo-tooling"
     }
   ],
   "commit": false,
